@@ -1,4 +1,4 @@
-package com.example.listener;
+package com.example.redis.listener;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.connection.Message;
@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 import java.nio.charset.StandardCharsets;
-import java.time.LocalDateTime;
 
 /**
  * @Description:
