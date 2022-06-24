@@ -62,6 +62,8 @@ public class DelayService {
      */
     @PostConstruct
     public void init(){
+        LocalDateTime now = LocalDateTime.now();
+
         new Thread(new DelayTask()).start();
         log.warn("【【【异步线程延时队列开启完毕】】】");
     }
